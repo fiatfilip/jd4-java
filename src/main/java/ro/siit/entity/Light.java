@@ -1,10 +1,18 @@
 package ro.siit.entity;
 
 public class Light {
-    private int lux = 0;
+    private int lux;//  = 0;
     private int defaultLux = 500;
     private int maxLux = 600;
     private boolean broken = false;
+
+    Light(){
+
+    }
+
+    Light(int maxLux){
+        this.maxLux = maxLux;
+    }
 
     public void on() {
         if (!broken ) {
