@@ -23,3 +23,7 @@
 hs_err_pid*
 /jd4-java.iml
 /.idea/
+/src/main/java/ro/siit/temaWeek02/ArtAlbums.java
+/src/main/java/ro/siit/temaWeek02/Books.java
+/src/main/java/ro/siit/temaWeek02/Library.java
+/src/main/java/ro/siit/temaWeek02/Novels.java

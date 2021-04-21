@@ -9,13 +9,13 @@ public class Phone /*implements Comparable<Phone>*/{
     private final String IMEI;
 
     public Phone() {
-        // IMEI = imei;
+        // modelConfigurables = imei;
         IMEI = generateIMEI();
     }
 
     public Phone(String imei) {
         IMEI = imei;
-        // IMEI = generateIMEI();
+        // modelConfigurables = generateIMEI();
     }
 
     public String getIMEI() {
